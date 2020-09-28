@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13660985700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "on login page",
+            "match": {
+              "location": "LoginStepDefinition.on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1246558900,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cCRM[ says…]\u003e but was:\u003cCRM[PRO - CRM software for customer relationship management, sales, and support.]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat stepDefinitions.LoginStepDefinition.title_is_Free_CRM(LoginStepDefinition.java:52)\r\n\tat ✽.When title is Free CRM(login.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "title is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

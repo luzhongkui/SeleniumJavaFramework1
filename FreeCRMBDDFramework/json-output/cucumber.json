@@ -1,0 +1,97 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25105702800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "on login page",
+            "match": {
+              "location": "LoginSteps.on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107672700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "title of the page",
+            "match": {
+              "location": "LoginSteps.title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5436973900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter username and password",
+            "match": {
+              "location": "LoginSteps.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "will11",
+                  "will"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144693000,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat LoginStepsDT.LoginSteps.home_page_validate(LoginSteps.java:54)\r\n\tat ✽.Then home page validate(login.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "home page validate",
+            "match": {
+              "location": "LoginSteps.home_page_validate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "logout home page",
+            "match": {
+              "location": "LoginSteps.logout_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@DT"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

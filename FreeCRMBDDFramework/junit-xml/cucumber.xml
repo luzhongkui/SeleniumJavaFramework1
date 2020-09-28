@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.795042">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="30.795042">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at LoginStepsDT.LoginSteps.home_page_validate(LoginSteps.java:54)&#13;&#10;&#9;at ✽.Then home page validate(login.feature:17)&#13;&#10;"><![CDATA[Given on login page.........................................................passed
+When title of the page......................................................passed
+Then enter username and password............................................passed
+Then home page validate.....................................................failed
+Then logout home page.......................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at LoginStepsDT.LoginSteps.home_page_validate(LoginSteps.java:54)
+	at ✽.Then home page validate(login.feature:17)
+]]></failure>
+</testcase>
+</testsuite>
