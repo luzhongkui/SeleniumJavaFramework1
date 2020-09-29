@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.795042">
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="30.795042">
-<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at LoginStepsDT.LoginSteps.home_page_validate(LoginSteps.java:54)&#13;&#10;&#9;at ✽.Then home page validate(login.feature:17)&#13;&#10;"><![CDATA[Given on login page.........................................................passed
-When title of the page......................................................passed
-Then enter username and password............................................passed
-Then home page validate.....................................................failed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.039315">
+<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario" time="0.039315">
+<failure message="java.lang.IllegalStateException: The driver executable does not exist: C:\Users\luzhongk\Selenium\Web Driver\chromedriver.exe&#13;&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:534)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)&#13;&#10;&#9;at Component.Component.openPageChrome(Component.java:25)&#13;&#10;&#9;at LoginSteps_Without.LoginSteps.on_login_page(LoginSteps.java:21)&#13;&#10;&#9;at ✽.Given on login page(login.feature:15)&#13;&#10;"><![CDATA[Given on login page.........................................................failed
+When title of the page......................................................skipped
+Then enter will1 and will...................................................undefined
+Then home page validate.....................................................skipped
 Then logout home page.......................................................skipped
 
 StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at LoginStepsDT.LoginSteps.home_page_validate(LoginSteps.java:54)
-	at ✽.Then home page validate(login.feature:17)
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\luzhongk\Selenium\Web Driver\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at Component.Component.openPageChrome(Component.java:25)
+	at LoginSteps_Without.LoginSteps.on_login_page(LoginSteps.java:21)
+	at ✽.Given on login page(login.feature:15)
 ]]></failure>
 </testcase>
 </testsuite>
