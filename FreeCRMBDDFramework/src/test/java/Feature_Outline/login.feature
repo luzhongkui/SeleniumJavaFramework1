@@ -19,7 +19,7 @@ Then logout home page
  
 Examples:
 	| username | password | borswser | driver |
-	| will     | will     | webdriver.chrome.driver | C:\\Users\\luzhongk\\Selenium\\WebDriver\\chromedriver.exe |
-	| will     | will     | webdriver.gecko.driver  | C:\\Users\\luzhongk\\Selenium\\WebDriver\\geckodriver.exe  |
+	| will1    | will     | webdriver.chrome.driver | C:\\Users\\luzhongk\\Selenium\\WebDriver\\chromedriver.exe |
+	| will1    | will     | webdriver.gecko.driver  | C:\\Users\\luzhongk\\Selenium\\WebDriver\\geckodriver.exe  |
 	| will     | will     | webdriver.edge.driver   | C:\\Users\\luzhongk\\Selenium\\WebDriver\\msedgedriver.exe |
 	| will     | will     | webdriver.ie.driver     | C:\\Users\\luzhongk\\Selenium\\WebDriver\\IEDriverServer64.exe |
