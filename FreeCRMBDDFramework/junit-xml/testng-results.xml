@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="167.924724">
-<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario" time="32.91004">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="156.066101">
+<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario" time="28.562021">
 <system-out><![CDATA[Given on login page "webdriver.chrome.driver" and "C:\Users\luzhongk\Selenium\WebDriver\chromedriver.exe".passed
 When title of the page......................................................passed
 Then enter "will" and "will"................................................passed
@@ -8,7 +8,7 @@ Then home page validate.....................................................pass
 Then logout home page.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 2" time="30.928019">
+<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 2" time="30.364123">
 <system-out><![CDATA[Given on login page "webdriver.gecko.driver" and "C:\Users\luzhongk\Selenium\WebDriver\geckodriver.exe".passed
 When title of the page......................................................passed
 Then enter "will" and "will"................................................passed
@@ -16,7 +16,7 @@ Then home page validate.....................................................pass
 Then logout home page.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 3" time="32.441791">
+<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 3" time="28.721224">
 <system-out><![CDATA[Given on login page "webdriver.edge.driver" and "C:\Users\luzhongk\Selenium\WebDriver\msedgedriver.exe".passed
 When title of the page......................................................passed
 Then enter "will" and "will"................................................passed
@@ -24,7 +24,7 @@ Then home page validate.....................................................pass
 Then logout home page.......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 4" time="71.644874">
+<testcase classname="Free CRM2 Login Feature" name="Free CRM3 Login Test Scenario 4" time="68.418733">
 <system-out><![CDATA[Given on login page "webdriver.ie.driver" and "C:\Users\luzhongk\Selenium\WebDriver\IEDriverServer64.exe".passed
 When title of the page......................................................passed
 Then enter "will" and "will"................................................passed

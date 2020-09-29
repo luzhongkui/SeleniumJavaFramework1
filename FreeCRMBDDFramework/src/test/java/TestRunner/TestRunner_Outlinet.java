@@ -16,6 +16,6 @@ import cucumber.api.junit.Cucumber;
 		)
 
 
-public class TestRunner_Outline {
+public class TestRunner_Outlinet {
 
 }
